@@ -4,6 +4,21 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ /* Added by Saurav */
+ @media only screen and (max-width: 768px) {
+  section#about-section {
+      padding: 40px;
+  }
+
+  @media (max-width: 767.98px) {
+    .ftco-section {
+        padding: 6em 48px;
+    }
+}
+
+  } 
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
